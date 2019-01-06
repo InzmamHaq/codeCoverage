@@ -1,0 +1,37 @@
+{
+  "name": "e2e-with-coverage",
+  "version": "0.0.1",
+  "description": "none",
+  "devDependencies": {
+    "@types/jasmine": "3.3.5",
+    "@types/nconf": "0.0.37",
+    "@types/node": "^10.12.18",
+    "allure-commandline": "^2.8.1",
+    "allure2-js-commons": "^1.2.0",
+    "fs": "0.0.1-security",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-istanbul": "^0.8.0",
+    "jasmine": "^3.3.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "log4js": "^3.0.6",
+    "nconf": "^0.10.0",
+    "protractor": "^5.4.2",
+    "q": "^1.5.1",
+    "ts-node": "^3.0.2"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "tsc",
+    "test": "protractor targetJS/conf.js",
+    "report": "allure generate allure-results --clean -o allure-report || true"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "npm": "^6.5.0",
+    "protractor": "^5.4.2",
+    "webdriver-manager": "^12.1.1"
+  }
+}
