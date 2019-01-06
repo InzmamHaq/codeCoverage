@@ -1,0 +1,21 @@
+[ {
+  "uid" : "68a715b65c7e2fa1",
+  "name" : "should show extra div when clicking on link",
+  "time" : {
+    "start" : 1546789989617,
+    "stop" : 1546789990044,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b7b6609fdf7b0b8",
+  "name" : "should have title of Test Title",
+  "time" : {
+    "start" : 1546789978678,
+    "stop" : 1546789989617,
+    "duration" : 10939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

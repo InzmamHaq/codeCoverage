@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1546786608226' stop='1546786609326'>
+    <name>Main page</name>
+    <title>Main page</title>
+    <test-cases>
+        <test-case start='1546786608227' status='failed' stop='1546786609089'>
+            <name>should have title of Test Title</name>
+            <title>should have title of Test Title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'until' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'until' of undefined
+                    at /Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:10:51
+                    at ManagedPromise.invokeCallback_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+                    at TaskQueue.execute_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("should have title of Test Title") in control flow
+                    at UserContext.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:6:5)
+                    at addSpecsToSuite (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1546786609089' status='failed' stop='1546786609326'>
+            <name>should show extra div when clicking on link</name>
+            <title>should show extra div when clicking on link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'By' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'By' of undefined
+                    at UserContext.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:21:54)
+                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/jasminewd2/index.js:108:15
+                    at new ManagedPromise (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("should show extra div when clicking on link") in control flow
+                    at UserContext.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at QueueRunner.execute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:909:35)
+                    at Spec.execute (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:526:10)
+                    at UserContext.fn (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:5340:37)
+                    at attempt (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:19:5)
+                    at addSpecsToSuite (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/specs/test-spec.ts:5:1)
+                    at Module._compile (internal/modules/cjs/loader.js:689:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+                    at Module.load (internal/modules/cjs/loader.js:599:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

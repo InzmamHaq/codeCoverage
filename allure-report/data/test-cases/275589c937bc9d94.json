@@ -1,0 +1,45 @@
+{
+  "uid" : "275589c937bc9d94",
+  "name" : "should show extra div when clicking on link",
+  "fullName" : "Main page.should show extra div when clicking on link",
+  "historyId" : "f0566c4c25b58a4cd325fee1a456e0fc",
+  "time" : {
+    "start" : 1546789298625,
+    "stop" : 1546789308883,
+    "duration" : 10258
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.",
+  "statusTrace" : "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n                    at session_.flow_.promise (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/webdriver.js:847:16)\n                    at new ManagedPromise (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at promise.finally (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/webdriver.js:846:34)\n                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:1684:12\n                    at ManagedPromise.invokeCallback_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n                    at TaskQueue.execute_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at asyncRun (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/promise.js:668:7\n                From: Task: WebDriver.takeScreenshot()\n                    at thenableWebDriverProxy.schedule (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n                    at thenableWebDriverProxy.takeScreenshot (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/selenium-webdriver/lib/webdriver.js:1085:17)\n                    at run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/built/browser.js:59:33)\n                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/built/browser.js:67:16)\n                    at UserContext.<anonymous> (/Users/inzmam/Documents/e2e-istanbul-master/conf.ts:37:15)\n                    at attempt (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/inzmam/Documents/e2e-istanbul-master/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show extra div when clicking on link"
+  }, {
+    "name" : "package",
+    "value" : "Main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "275589c937bc9d94.json",
+  "parameterValues" : [ ]
+}

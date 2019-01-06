@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Main page",
+    "children" : [ {
+      "name" : "should have title of Test Title",
+      "uid" : "9b7b6609fdf7b0b8",
+      "parentUid" : "46030073e7377facf6f5f9b9b561cd8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546789978678,
+        "stop" : 1546789989617,
+        "duration" : 10939
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "should show extra div when clicking on link",
+      "uid" : "68a715b65c7e2fa1",
+      "parentUid" : "46030073e7377facf6f5f9b9b561cd8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1546789989617,
+        "stop" : 1546789990044,
+        "duration" : 427
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "46030073e7377facf6f5f9b9b561cd8f"
+  } ]
+}

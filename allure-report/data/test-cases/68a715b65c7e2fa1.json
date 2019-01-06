@@ -1,0 +1,214 @@
+{
+  "uid" : "68a715b65c7e2fa1",
+  "name" : "should show extra div when clicking on link",
+  "fullName" : "Main page.should show extra div when clicking on link",
+  "historyId" : "f0566c4c25b58a4cd325fee1a456e0fc",
+  "time" : {
+    "start" : 1546789989617,
+    "stop" : 1546789990044,
+    "duration" : 427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2507c3ce54ad1695",
+      "name" : "Screenshot",
+      "source" : "2507c3ce54ad1695.png",
+      "type" : "image/png",
+      "size" : 15621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Main page"
+  }, {
+    "name" : "testClass",
+    "value" : "Main page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show extra div when clicking on link"
+  }, {
+    "name" : "package",
+    "value" : "Main page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a790f98e4ae7edf2",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read property 'createAttachment' of undefined",
+      "time" : {
+        "start" : 1546789879821,
+        "stop" : 1546789880230,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "713e730515fa5db2",
+      "status" : "failed",
+      "statusDetails" : "TypeError: Cannot read property 'createAttachment' of undefined",
+      "time" : {
+        "start" : 1546789449915,
+        "stop" : 1546789465524,
+        "duration" : 15609
+      }
+    }, {
+      "uid" : "eae3c82f74667ad5",
+      "status" : "failed",
+      "statusDetails" : "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.",
+      "time" : {
+        "start" : 1546789369858,
+        "stop" : 1546789383851,
+        "duration" : 13993
+      }
+    }, {
+      "uid" : "275589c937bc9d94",
+      "status" : "failed",
+      "statusDetails" : "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.",
+      "time" : {
+        "start" : 1546789298625,
+        "stop" : 1546789308883,
+        "duration" : 10258
+      }
+    }, {
+      "uid" : "e103bd5c113cb4f9",
+      "status" : "failed",
+      "statusDetails" : "Failed: Callback must be a function",
+      "time" : {
+        "start" : 1546789088170,
+        "stop" : 1546789098581,
+        "duration" : 10411
+      }
+    }, {
+      "uid" : "89b829cbf2545695",
+      "status" : "failed",
+      "statusDetails" : "Failed: Callback must be a function",
+      "time" : {
+        "start" : 1546788468289,
+        "stop" : 1546788483936,
+        "duration" : 15647
+      }
+    }, {
+      "uid" : "9449e5c43fbd918f",
+      "status" : "failed",
+      "statusDetails" : "Failed: Callback must be a function",
+      "time" : {
+        "start" : 1546788292903,
+        "stop" : 1546788303322,
+        "duration" : 10419
+      }
+    }, {
+      "uid" : "90b0a541a8c8a6a8",
+      "status" : "failed",
+      "statusDetails" : "Failed: Callback must be a function",
+      "time" : {
+        "start" : 1546787951668,
+        "stop" : 1546787962065,
+        "duration" : 10397
+      }
+    }, {
+      "uid" : "88f957a2022c0df2",
+      "status" : "failed",
+      "statusDetails" : "Failed: Callback must be a function",
+      "time" : {
+        "start" : 1546787708795,
+        "stop" : 1546787724406,
+        "duration" : 15611
+      }
+    }, {
+      "uid" : "6c1ca8d0d36a1ba2",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1546787631621,
+        "stop" : 1546787641995,
+        "duration" : 10374
+      }
+    }, {
+      "uid" : "f7869aeb85c56cf4",
+      "status" : "failed",
+      "statusDetails" : "Failed: Error while waiting for Protractor to sync with the page: \"both angularJS testability and angular testability are undefined.  This could be either because this is a non-angular page or because your test involves client-side navigation, which can interfere with Protractor's bootstrapping.  See http://git.io/v4gXM for details\"",
+      "time" : {
+        "start" : 1546787293225,
+        "stop" : 1546787303604,
+        "duration" : 10379
+      }
+    }, {
+      "uid" : "2563f536f2cdb6f3",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546787191051,
+        "stop" : 1546787191291,
+        "duration" : 240
+      }
+    }, {
+      "uid" : "531dd1b1be86ef3b",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546787142501,
+        "stop" : 1546787142742,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "4438aa400a31404",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546787020815,
+        "stop" : 1546787021054,
+        "duration" : 239
+      }
+    }, {
+      "uid" : "3aa775faa483ccbf",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546786609089,
+        "stop" : 1546786609326,
+        "duration" : 237
+      }
+    }, {
+      "uid" : "da100b13b50af498",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546786474633,
+        "stop" : 1546786474874,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "1dbeefb7426cdec1",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'By' of undefined",
+      "time" : {
+        "start" : 1546786433446,
+        "stop" : 1546786433688,
+        "duration" : 242
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68a715b65c7e2fa1.json",
+  "parameterValues" : [ ]
+}
