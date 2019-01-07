@@ -1,20 +1,20 @@
 [ {
-  "uid" : "68a715b65c7e2fa1",
+  "uid" : "36fb19404774a25f",
   "name" : "should show extra div when clicking on link",
   "time" : {
-    "start" : 1546789989617,
-    "stop" : 1546789990044,
-    "duration" : 427
+    "start" : 1546809153124,
+    "stop" : 1546809153549,
+    "duration" : 425
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b7b6609fdf7b0b8",
+  "uid" : "c3f145894522607",
   "name" : "should have title of Test Title",
   "time" : {
-    "start" : 1546789978678,
-    "stop" : 1546789989617,
-    "duration" : 10939
+    "start" : 1546809142070,
+    "stop" : 1546809153123,
+    "duration" : 11053
   },
   "status" : "passed",
   "severity" : "normal"

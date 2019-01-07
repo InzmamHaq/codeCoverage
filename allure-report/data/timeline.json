@@ -2,26 +2,26 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "should show extra div when clicking on link",
-    "uid" : "68a715b65c7e2fa1",
+    "name" : "should have title of Test Title",
+    "uid" : "c3f145894522607",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1546789989617,
-      "stop" : 1546789990044,
-      "duration" : 427
+      "start" : 1546809142070,
+      "stop" : 1546809153123,
+      "duration" : 11053
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
-    "name" : "should have title of Test Title",
-    "uid" : "9b7b6609fdf7b0b8",
+    "name" : "should show extra div when clicking on link",
+    "uid" : "36fb19404774a25f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1546789978678,
-      "stop" : 1546789989617,
-      "duration" : 10939
+      "start" : 1546809153124,
+      "stop" : 1546809153549,
+      "duration" : 425
     },
     "flaky" : true,
     "parameters" : [ ]

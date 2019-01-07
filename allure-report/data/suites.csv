@@ -1,3 +1,3 @@
 "Status","Name","Duration in ms","Description"
-"passed","Main page.should show extra div when clicking on link","427",""
-"passed","Main page.should have title of Test Title","10939",""
+"passed","Main page.should have title of Test Title","11053",""
+"passed","Main page.should show extra div when clicking on link","425",""
