@@ -1,4 +1,4 @@
-# Example of End To End Testing Using Selenium Webdriver and Jasmine Tests With Istanbul Code Coverage
+# Example of End To End Testing Using Protractor,TypeScript and Jasmine Tests With Istanbul Code Coverage
 
 ## Goal
 
